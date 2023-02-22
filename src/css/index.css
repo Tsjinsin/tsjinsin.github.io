@@ -1,14 +1,20 @@
 *{
     margin: 0;
     padding: 0;
+    transition: 0.5s;
+
 }
 .text {
     font-size: 7vh;
-    color: black;
     font-family: 'Courier New', Courier, monospace;
 }
 #myimg{
     width: 24vh;
+    height: 100%;
+}
+
+#myimg:hover{
+    width: 26vh;
     height: 100%;
 }
 
