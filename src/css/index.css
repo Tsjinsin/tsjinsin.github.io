@@ -1,6 +1,24 @@
-.id {
-    position: absolute;
-    top: 50%;
-    left: 50%;
+*{
+    margin: 0;
+    padding: 0;
+}
+.text {
     font-size: 7vh;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+#myimg{
+    width: 24vh;
+    height: 100%;
+}
+
+.topContainer{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+    background: url(https://bing.biturl.top/?resolution=1920&format=image&index=0&mkt=zh-CN) center center no-repeat;
+    background-size: cover;
+    height: 100vh;
+
 }
