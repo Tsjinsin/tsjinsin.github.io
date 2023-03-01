@@ -5,25 +5,25 @@
 
 }
 .text {
-    font-size: 7vh;
-    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 #myimg{
-    width: 24vh;
+    width: 48vh;
     height: 100%;
 }
 
-#myimg:hover{
+/* #myimg:hover{
     width: 26vh;
     height: 100%;
-}
+} */
 
 .topContainer{
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
     justify-content: space-around;
-    background: url(https://bing.biturl.top/?resolution=1920&format=image&index=0&mkt=zh-CN) center center no-repeat;
+    background:  url(../pic/LatiosBG.jpg) center center no-repeat;
     background-size: cover;
     height: 100vh;
 
